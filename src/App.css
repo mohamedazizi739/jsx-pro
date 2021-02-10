@@ -1,38 +1,66 @@
-.App {
+h1 {
   text-align: center;
+  color: royalblue;
+  font-size: 50px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.add {
+  position: relative;
+  margin-left: 30%;
+  width: 600px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.add > label {
+  font-size: 20px;
+  margin: 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list {
   display: flex;
   flex-direction: column;
+  margin-left: 30%;
+}
+.task {
+  border-radius: 5px;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: royalblue;
+  justify-content: space-between;
   color: white;
+  margin: 5px;
+  width: 600px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+button {
+  text-align: center;
+  margin: 10px;
+  font-size: larger;
+  border-radius: 5px;
+  background-color: #555555;
+  color: white;
+  opacity: 0.7;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  opacity: 1;
+}
+h2:hover {
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30%;
+  width: 600px;
+}
+.button > button {
+  width: 30%;
+  height: 30px;
+  font-size: 20px;
+  background-color: #4caf50;
+  opacity: 1;
+}
+.button > button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.b {
+  display: flex;
 }
